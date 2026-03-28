@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: 422749391306.dkr.ecr.us-east-1.amazonaws.com/coworking-analytics:latest
+        image: 422749391306.dkr.ecr.us-east-1.amazonaws.com/coworking-analytics:13
         imagePullPolicy: IfNotPresent
         envFrom:
         - configMapRef:
