@@ -15,3 +15,5 @@ Application configuration values such as database host, username, database name,
 To release a new version of the application, a developer pushes code changes to the repository. This triggers the CI pipeline to build a new Docker image and push it to ECR, after which the Kubernetes deployment can be updated to use the new image.
 
 Due to AWS Udacity sandbox limitations, some build or runtime steps may be automatically stopped. However, the CI/CD configuration, Docker setup, and Kubernetes manifests are implemented according to best practices and meet the project requirements.
+
+Webhook trigger test
