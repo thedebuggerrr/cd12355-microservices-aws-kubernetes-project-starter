@@ -16,4 +16,4 @@ To release a new version of the application, a developer pushes code changes to 
 
 Due to AWS Udacity sandbox limitations, some build or runtime steps may be automatically stopped. However, the CI/CD configuration, Docker setup, and Kubernetes manifests are implemented according to best practices and meet the project requirements.
 
-Webhook trigger test after disabling CloudWatch logs
+Webhook trigger test
